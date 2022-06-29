@@ -1,0 +1,13 @@
+.body   {
+    background-image: url(https://kmganalytics.com/wp-content/uploads/2020/07/Digitalizar-las-finanzas-770x400.png);
+
+}
+.login  {
+    width: 50%;
+    height: 50%;
+    background-color: #FCF3CF ;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 2%;    
+}

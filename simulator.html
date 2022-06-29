@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3c44aa10f3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="/CSS/simulator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Simulador de Préstamo</title>
+</head>
+<body>
+    <div class="form">
+        <div class="indicadores">
+           <div>
+                <h1>DOLAR</h1>  
+                <p id="dolar"></p>
+           </div>
+           <div>
+                <h1>EURO</h1>  
+                <p id="euro"></p>
+           </div>
+           <p class="let-ref">Estos valores estan representados en pesos Chilenos 💰, tenga en cuenta las referencias para el pais de consulta </p> 
+        </div>
+        <fieldset>
+            <h1>SIMULADOR DE PRÉSTAMO</h1>
+            <form>
+                <div>
+                    <label for="capital">CAPITAL 
+                        <input type="text" placeholder="Ingrese el  valor capital a solicitar" id="capital">
+                        <i class="fas fa-coins"></i>
+                    </label>
+                </div>
+                <div>
+                    <label for="couta">N° CUOTAS 
+                        <input type="text" placeholder="Ingrese N° de cuotas deseadas" id="couta">
+                        <i class="far fa-calendar-alt"></i>
+                    </label>
+                </div>
+                <div>
+                    <label for="interes">INTERES 
+                        <input type="text" placeholder="Ingrese el interés efectivo anual" id="interes">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </label>
+                </div>
+            </form>
+        <button onclick="gen_table();">CALCULAR</button>
+        </fieldset>
+        <hr>
+        <div id="datos"></div>
+        <table class="tab">
+            <thead>
+                <tr>
+                    <td>NRO CUOTA</td>
+                    <td>CAPITAL</td>
+                    <td>INTERES</td>
+                    <td>VALOR A PAGAR</td>
+                </tr>
+            </thead>
+            <tbody id="tab">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="ft">TOTAL</td>
+                    <td id="t1"></td>
+                    <td id="t2"></td>
+                    <td id="t3"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <script src="/JS/main.js"></script>
+</body>
+</html>
