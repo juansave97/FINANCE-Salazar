@@ -17,6 +17,11 @@ fetch('https://mindicador.cl/api')
         console.log(data)
         document.getElementById("dolar").innerHTML = '$ ' + data.dolar.valor
         document.getElementById("euro").innerHTML = '€ ' + data.euro.valor
+        document.getElementById("dolar_intercambio").innerHTML = '$ ' +data.dolar_intercambio.valor
+        document.getElementById("bitcoin").innerHTML = '$ ' + data.bitcoin.valor
+        document.getElementById("ivp").innerHTML = '$ ' + data.ivp.valor
+        document.getElementById("ipc").innerHTML = '$ ' + data.ipc.valor
+        document.getElementById("utm").innerHTML = '$ ' + data.utm.valor
     })
 
 

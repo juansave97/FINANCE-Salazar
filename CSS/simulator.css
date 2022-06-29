@@ -1,7 +1,11 @@
+.navbar {
+    text-align: center;
+}   
+
 body{
-    background-color: #F9E79F; 
-    background-size: cover;
-    opacity: 0.85;
+
+    /* background-size: cover;
+    opacity: 0.85; */
 }
 
 .indicadores {
