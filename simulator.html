@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Fjalla+One&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.PNG" type="image/x-icon">
     <link rel="shortcut icon" href="./images/favicon.PNG" type="image/x-icon">
     <title>FINANCE</title>
 </head>
@@ -22,24 +24,50 @@
 </nav>
 <body>
     <div class="form">
+        <div class="title">
+            <h2>INDICADORES ECONÓMICOS </h2>
+        </div>
         <div class="indicadores">
-           <div>
+            
+            <div>
+                <img class="img" src="./images/dolar-svgrepo-com.svg" alt="">
                 <h1>DOLAR</h1>  
                 <p id="dolar"></p>
-           </div>
-           <div>
+            </div>
+            <div>
+                <img class="img" src="./images/euro-svgrepo-com.svg" alt="">
                 <h1>EURO</h1>  
                 <p id="euro"></p>
-           </div>
-           <div>
-            <h1>IVP</h1>  
-            <p id="ivp"></p>
-       </div>
-           <p class="let-ref">Estos valores estan representados en pesos Chilenos 💰, tenga en cuenta las referencias para el pais de consulta </p> 
+            </div>
+            <div>
+                <img class="img" src="./images/house-exchange-svgrepo-com.svg" alt=""> 
+                <h1>C. DOLAR</h1>  
+                <p id="dolar_intercambio"></p>
+            </div>
+            <div>
+                <img class="img" src="./images/bitcoin-svgrepo-com.svg" alt="">
+                <h1>BTC</h1>  
+                <p id="bitcoin"></p>
+            </div>
+            <div>
+                <img class="img" src="./images/money-finance-business-cash-currency-coin-save-svgrepo-com.svg" alt="">
+                <h1>IVP</h1>  
+                <p id="ivp"></p>
+            </div>
+            <div>
+                <img class="img" src="./images/food-svgrepo-com.svg" alt="">
+                <h1>IPC</h1>  
+                <p id="ipc"></p>
+            </div>
+            <div><img class="img"src="./images/tax-svgrepo-com.svg" alt="">
+                <h1>UTM</h1>  
+                <p id="utm"></p>
+            </div>
         </div>
+        <p class="let-ref">Estos indicadores estan representados en pesos Chilenos 💰, tenga en cuenta las referencias para el pais desde el cual consulta </p> 
         <fieldset>
             <h1>SIMULADOR DE PRÉSTAMO</h1>
-            <form>
+            <form class="input-date">
                 <div>
                     <label for="capital">CAPITAL 
                         <input type="text" placeholder="Ingrese el  valor capital a solicitar" id="capital">

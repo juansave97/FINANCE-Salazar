@@ -1,19 +1,25 @@
 .navbar {
     text-align: center;
-}   
-
-body{
-
-    /* background-size: cover;
-    opacity: 0.85; */
 }
-
+.form {
+    background-color: #a1dda5;
+}   
+.title {
+    font-family:'Fjalla One', sans-serif ;
+    text-align: center;
+    padding: 10px;
+}
 .indicadores {
     display: flex;
     justify-content: center;
-    background-color: #d5f1f1 ;
     border-radius: 20px;
     margin-bottom: 10px;
+    padding: 20px;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
 }
 
 .indicadores div {
@@ -23,53 +29,58 @@ body{
 }
 
 .indicadores div h1 {
-    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
 }
 
-.indicadores div p {
+div p {
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
 }
-.let-ref {
-    font-family:'Quicksand', sans-serif;
-    text-align: end;
-    margin-right: 3px;
-}
+
 h1{
     text-align: center;
-    font-family: 'arial';
+    font-family: 'Quicksand', sans-serif;;
 }
 label{
-    font-family: 'arial';
+    font-family: 'Quicksand', sans-serif;;
     font-weight: bold;
 }
-.form{
-    width: 550px;
-    margin: 0 auto;
-    margin-top: 80px;
-    border:  2px;
-}
+
 input{
-    width: 200px;
+    width: 211px;
+    height: 14px;
     margin-bottom: 10px;
     padding: 8px;
     margin-right: -6px;
     background-color: #fdfef7;
     border: #173441 1.8px solid;
+    font-family: 'Quicksand', sans-serif;
+}   
+fieldset {
+    margin: auto;
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/05/10/13/background-1180666_960_720.jpg);
+    background-size: cover;
 }
-fieldset{
-    border: #173441 2px solid;
-    border-radius: 10px;
-    background-color: #d1ddbe ;
+
+.input-date {
+    text-align: center;
 }
+
 button{
-    background-color: #fdfef7;
-    border: #173441 1.8px solid;
+    background-color: rgb(219, 219, 56);
+    border: none;
     width: 100px;
-    font-family: 'arial';
+    font-family: 'Quicksand', sans-serif;
     font-size: 15px;  
-    border-radius: 2px;
+    border-radius: 20px;
     padding: 10px;
-    margin-left:77%;
+    margin-left:45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 i{
     background-color: #fdfef7;
@@ -82,7 +93,7 @@ i{
 .tab{
     border-collapse: collapse;
     text-align: center;
-    font-family: 'arial';
+    font-family: 'Arsenal', sans-serif;
     background-color: #fdfef7;
     border: #173441 2px solid;
     margin: 0 auto;
@@ -96,5 +107,5 @@ tr{
     border: #173441 2px solid;
 }
 td{
-    border: #173441 2px solid;    
+    border: #173441 2px solid;   
 }

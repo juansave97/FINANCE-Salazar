@@ -20,7 +20,7 @@ fetch('https://mindicador.cl/api')
         document.getElementById("dolar_intercambio").innerHTML = '$ ' +data.dolar_intercambio.valor
         document.getElementById("bitcoin").innerHTML = '$ ' + data.bitcoin.valor
         document.getElementById("ivp").innerHTML = '$ ' + data.ivp.valor
-        document.getElementById("ipc").innerHTML = '$ ' + data.ipc.valor
+        document.getElementById("ipc").innerHTML =data.ipc.valor +  ' %'
         document.getElementById("utm").innerHTML = '$ ' + data.utm.valor
     })
 
@@ -33,7 +33,6 @@ function gen_table() {
     tab = document.getElementById("tab")
     tab.innerHTML= ""
     let capital = Number(document.getElementById("capital").value)
-    console.log("hola", capital)
     let cuotas = Number(document.getElementById("couta").value)
     let intereses = Number(document.getElementById("interes").value)
     var name = localStorage.getItem("name")       
