@@ -2,7 +2,7 @@
     text-align: center;
 }
 .form {
-    background-color: #a1dda5;
+    background-color: #c0eec0;
 }   
 .title {
     font-family:'Fjalla One', sans-serif ;
@@ -68,6 +68,17 @@ fieldset {
 
 .input-date {
     text-align: center;
+}
+
+select {
+    width: 211px;
+    height: 34px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+    font-family: 'Quicksand', sans-serif;
 }
 
 button{
